@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E2E66F61-9740-2572-FA0B-EC9DD91D75BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.4.1f1</UnityVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\scripts\AnimacaoDeSpriteParaUI.cs" />
+    <Compile Include="Assets\scripts\AplicadorDeVidaExtra.cs" />
+    <Compile Include="Assets\scripts\AuxiliarDeEnum.cs" />
+    <Compile Include="Assets\scripts\Comandos\AplicadorDeComandos.cs" />
+    <Compile Include="Assets\scripts\Comandos\AplicadorDeDano.cs" />
+    <Compile Include="Assets\scripts\Comandos\AtaqueDeFogo.cs" />
+    <Compile Include="Assets\scripts\Comandos\AtaqueEspecial.cs" />
+    <Compile Include="Assets\scripts\Comandos\AtaquePrincipal.cs" />
+    <Compile Include="Assets\scripts\Comandos\DadosDoPersonagem.cs" />
+    <Compile Include="Assets\scripts\Comandos\DerrotaDoPersonagem.cs" />
+    <Compile Include="Assets\scripts\Comandos\EstadoDeDano.cs" />
+    <Compile Include="Assets\scripts\Comandos\EstadoDePersonagem_Gerente.cs" />
+    <Compile Include="Assets\scripts\Comandos\ListaDePersonagens.cs" />
+    <Compile Include="Assets\scripts\Comandos\MaterialPiscante.cs" />
+    <Compile Include="Assets\scripts\Comandos\Personagem.cs" />
+    <Compile Include="Assets\scripts\Comandos\PosCamera.cs" />
+    <Compile Include="Assets\scripts\Comandos\VerificaAcoesEspeciais.cs" />
+    <Compile Include="Assets\scripts\Comandos\movimentacaoPointinTouch.cs" />
+    <Compile Include="Assets\scripts\Elementos\ControladorDeJogo.cs" />
+    <Compile Include="Assets\scripts\Elementos\GerenciadorDeCombos.cs" />
+    <Compile Include="Assets\scripts\Elementos\GerenciadorDePontos.cs" />
+    <Compile Include="Assets\scripts\Elementos\MelhoraInstancia.cs" />
+    <Compile Include="Assets\scripts\Elementos\MelhorarPersonagem.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelMagnetico.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelMaisAtaque.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelMaisCheckCombos.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelMaisDefesa.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelMaisEsferas.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelMaisEstamina.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelMaisTempoDeCombo.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelMenosCustoDeEsfera.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelVidaExtra.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AtualizadorDosElementosDeEquip.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\CompraEquipamento.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\ControladorDaHUD_Equipamentos.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\MelhoraEquipamento.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\MostrarEquipadosParaTroca.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\SpriteDeEquipamento.cs" />
+    <Compile Include="Assets\scripts\HUD\ParentearNaHUD.cs" />
+    <Compile Include="Assets\scripts\MensagemVidaExtra.cs" />
+    <Compile Include="Assets\scripts\NivelJogador\EquipamentoPorNivel.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelEspecialMaisPotente.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\AnelMaisMoedas.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\EquipamentoBase.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\HUD_EquipamentoDoPerfil.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\PegueUmEquipamento.cs" />
+    <Compile Include="Assets\scripts\Equipamentos\SloteDeEquipamento.cs" />
+    <Compile Include="Assets\scripts\G_XP\GerenciadorDeExperiencia.cs" />
+    <Compile Include="Assets\scripts\G_XP\IGerenciadorDeExperiencia.cs" />
+    <Compile Include="Assets\scripts\HUD\BotoesDaHUD_Personagem.cs" />
+    <Compile Include="Assets\scripts\HUD\CompraDeNovosPersonagens.cs" />
+    <Compile Include="Assets\scripts\HUD\ContainerDosDadosEmJogo.cs" />
+    <Compile Include="Assets\scripts\HUD\ControladorDoResultado.cs" />
+    <Compile Include="Assets\scripts\HUD\EdicaoDePerfil_HUD.cs" />
+    <Compile Include="Assets\scripts\HUD\GerenciadorDeHUD.cs" />
+    <Compile Include="Assets\scripts\HUD\GerenciadorDoContainerDasMissoes.cs" />
+    <Compile Include="Assets\scripts\HUD\HUD_Personagens.cs" />
+    <Compile Include="Assets\scripts\HUD\InicializacaoDePerfil.cs" />
+    <Compile Include="Assets\scripts\HUD\ModificadorDoContainerPrincipal.cs" />
+    <Compile Include="Assets\scripts\HUD\MovimentadorDoPersonagemNaTroca.cs" />
+    <Compile Include="Assets\scripts\HUD\PainelDeConfirmacao.cs" />
+    <Compile Include="Assets\scripts\HUD\PainelDoPerfil.cs" />
+    <Compile Include="Assets\scripts\HUD\PainelUmaMensagem.cs" />
+    <Compile Include="Assets\scripts\HUD\PauseGame.cs" />
+    <Compile Include="Assets\scripts\HUD\PiscaBarra.cs" />
+    <Compile Include="Assets\scripts\Inimigos\AfastadorDeInimigoEmDano.cs" />
+    <Compile Include="Assets\scripts\Inimigos\AplicadorAfastadorDeInimigo.cs" />
+    <Compile Include="Assets\scripts\Inimigos\AvancaMagia.cs" />
+    <Compile Include="Assets\scripts\Inimigos\EstouSpawnando.cs" />
+    <Compile Include="Assets\scripts\Inimigos\InimigoBase.cs" />
+    <Compile Include="Assets\scripts\Inimigos\Jacare.cs" />
+    <Compile Include="Assets\scripts\Inimigos\Mago.cs" />
+    <Compile Include="Assets\scripts\Inimigos\Sapinho.cs" />
+    <Compile Include="Assets\scripts\Inimigos\SapinhoDeCanto.cs" />
+    <Compile Include="Assets\scripts\Inimigos\SapinhoDeCerco.cs" />
+    <Compile Include="Assets\scripts\Inimigos\SpawnerDeInimigos.cs" />
+    <Compile Include="Assets\scripts\Inimigos\inimigo1.cs" />
+    <Compile Include="Assets\scripts\Itens\AfastamentoDeExplosaoParaHeroi.cs" />
+    <Compile Include="Assets\scripts\Itens\CheckCombo.cs" />
+    <Compile Include="Assets\scripts\Itens\Coletavel.cs" />
+    <Compile Include="Assets\scripts\Itens\CristalEspecial.cs" />
+    <Compile Include="Assets\scripts\Itens\Dinamite.cs" />
+    <Compile Include="Assets\scripts\Itens\EstrelaDeCristal.cs" />
+    <Compile Include="Assets\scripts\Itens\MaisEstamina.cs" />
+    <Compile Include="Assets\scripts\Itens\Moeda.cs" />
+    <Compile Include="Assets\scripts\Itens\PiscarMaterial.cs" />
+    <Compile Include="Assets\scripts\Itens\SpawnDeItens.cs" />
+    <Compile Include="Assets\scripts\NivelJogador\LiberaSlote.cs" />
+    <Compile Include="Assets\scripts\NivelJogador\MaisMultiplicadorGlobal.cs" />
+    <Compile Include="Assets\scripts\MIsoes\AlcanceCombo.cs" />
+    <Compile Include="Assets\scripts\MIsoes\AlcanceNivel.cs" />
+    <Compile Include="Assets\scripts\MIsoes\CheckCombosEmUnicoJogo.cs" />
+    <Compile Include="Assets\scripts\MIsoes\ColeteCheckCombos.cs" />
+    <Compile Include="Assets\scripts\MIsoes\ColeteEsferas.cs" />
+    <Compile Include="Assets\scripts\MIsoes\ColeteEstaminas.cs" />
+    <Compile Include="Assets\scripts\MIsoes\ColeteMoedas.cs" />
+    <Compile Include="Assets\scripts\MIsoes\DerroteInimigos.cs" />
+    <Compile Include="Assets\scripts\MIsoes\EscolhaDeMissao.cs" />
+    <Compile Include="Assets\scripts\MIsoes\EsferasEmUnicoJogo.cs" />
+    <Compile Include="Assets\scripts\MIsoes\EstaminasEmUnicoJogo.cs" />
+    <Compile Include="Assets\scripts\MIsoes\GerenciadorDeMissoes.cs" />
+    <Compile Include="Assets\scripts\MIsoes\InimigosEmUnicoJogo.cs" />
+    <Compile Include="Assets\scripts\MIsoes\MeDigaMinhaMissao.cs" />
+    <Compile Include="Assets\scripts\MIsoes\Missoes.cs" />
+    <Compile Include="Assets\scripts\MIsoes\MoedasEmUnicoJogo.cs" />
+    <Compile Include="Assets\scripts\MIsoes\PasseDeNivel.cs" />
+    <Compile Include="Assets\scripts\MIsoes\PegueUmaMissao.cs" />
+    <Compile Include="Assets\scripts\MIsoes\PontuacaoEmUnicoJogo.cs" />
+    <Compile Include="Assets\scripts\MIsoes\ResultadoDasMissoes.cs" />
+    <Compile Include="Assets\scripts\MIsoes\SomePontuacao.cs" />
+    <Compile Include="Assets\scripts\ManipuladoresDeDados\BancoDeTextos.cs" />
+    <Compile Include="Assets\scripts\ManipuladoresDeDados\ControladorGlobal.cs" />
+    <Compile Include="Assets\scripts\ManipuladoresDeDados\DadosGlobais.cs" />
+    <Compile Include="Assets\scripts\ManipuladoresDeDados\InimigosPorNivel.cs" />
+    <Compile Include="Assets\scripts\ManipuladoresDeDados\Perfil.cs" />
+    <Compile Include="Assets\scripts\ManipuladoresDeDados\SaveGame.cs" />
+    <Compile Include="Assets\scripts\NivelJogador\AtualizadorDosTextosDeNivel.cs" />
+    <Compile Include="Assets\scripts\NivelJogador\BotaoNivelDoJogadorNoPerfil.cs" />
+    <Compile Include="Assets\scripts\NivelJogador\ControladorDoMostradosDeNiveis.cs" />
+    <Compile Include="Assets\scripts\NivelJogador\PasseiDeNivel_MeLeve.cs" />
+    <Compile Include="Assets\scripts\NivelJogador\PrimeiraRecompensaDeNivel_RecompensaTradicional.cs" />
+    <Compile Include="Assets\scripts\NivelJogador\PrimeiroMultiplicadorGlobal.cs" />
+    <Compile Include="Assets\scripts\NivelJogador\RecompensaDeNivel_RecompensaTradicional.cs" />
+    <Compile Include="Assets\scripts\RecebiAlgo.cs" />
+    <Compile Include="Assets\scripts\TesteDeCarregamentoAssincrono.cs" />
+    <Compile Include="Assets\scripts\recompensa\BotaoRecompensaDoPerfil.cs" />
+    <Compile Include="Assets\scripts\recompensa\ControladorDeRecompensas.cs" />
+    <Compile Include="Assets\scripts\recompensa\MostrarRecompensa.cs" />
+    <Compile Include="Assets\scripts\recompensa\Recompensa.cs" />
+    <Compile Include="Assets\scripts\recompensa\RecompensaPorMissao.cs" />
+    <Compile Include="Assets\scripts\recompensa\RecompensaPorNivel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Modelos\construcaoModular\readme.txt" />
+    <None Include="Assets\particles\Particle Alpha Blend (Queue +100).shader" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

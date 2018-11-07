@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "84120532612",
+    "firebase_url": "https://tap-attack.firebaseio.com",
+    "project_id": "tap-attack",
+    "storage_bucket": "tap-attack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84120532612:android:5bb0e323d6a2b302",
+        "android_client_info": {
+          "package_name": "com.Rager.TapAttack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84120532612-0j2pip736j5e1kdv0qhis6i3njmdl26q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYdSxgW18PFAHCLDP8T24a1nCgQyGBuug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

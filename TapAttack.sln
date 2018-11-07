@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapAttack", "TapAttack.csproj", "{44E43CF7-3DCB-19D0-FAE0-155C6C12F0F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapAttack.Editor", "TapAttack.Editor.csproj", "{5D5271B9-EFCB-BB64-707D-EB9E56A9998A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44E43CF7-3DCB-19D0-FAE0-155C6C12F0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E43CF7-3DCB-19D0-FAE0-155C6C12F0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E43CF7-3DCB-19D0-FAE0-155C6C12F0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E43CF7-3DCB-19D0-FAE0-155C6C12F0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5271B9-EFCB-BB64-707D-EB9E56A9998A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5271B9-EFCB-BB64-707D-EB9E56A9998A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5271B9-EFCB-BB64-707D-EB9E56A9998A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5271B9-EFCB-BB64-707D-EB9E56A9998A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
